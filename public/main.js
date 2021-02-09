@@ -10,11 +10,11 @@ function main() {
     luckyNumber: 13,
   }
 
-  const userName = prompt('Please enter your name')
+  const userName = window.prompt('Please enter your name')
   console.log(`Hello ${userName} Welcome to my program`)
 
-  let firstOperand = parseFloat(prompt('Give me a number'))
-  let secondOperand = parseFloat(prompt('Give me another number'))
+  let firstOperand = parseFloat(window.prompt('Give me a number'))
+  let secondOperand = parseFloat(window.prompt('Give me another number'))
 
   let sum = firstOperand + secondOperand
   let difference = firstOperand - secondOperand
@@ -144,7 +144,7 @@ function main() {
   console.log(smallest)
   console.log(largest)
 
-  let statistics = {
+   statistics = {
     smallest,
     largest,
     sum,
